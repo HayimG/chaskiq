@@ -88,7 +88,7 @@ gem "jwt"
 gem "devise_invitable", "~> 2.0"
 gem "doorkeeper", "~> 5.5.0"
 gem "oauth", "~> 0.5.5"
-gem "omniauth-oauth2"
+gem "omniauth-oauth2", ">= 1.9.0"
 
 gem "image_processing", "~> 1.12"
 gem "sidekiq" # , "~> 6.5"
