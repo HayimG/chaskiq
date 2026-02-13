@@ -70,15 +70,15 @@ gem "ransack"
 gem "searchkick"
 
 # gem "elasticsearch", "7.12" # select one
-gem "opensearch-ruby" # select one
+gem "opensearch-ruby" , ">= 3.1.0" # select one
 
 gem "browser", "~> 2.5"
 gem "geocoder", "~> 1.6"
 gem "geoip"
 gem "truemail"
 
-gem "google-cloud-dialogflow"
-gem "twilio-ruby", "~> 5.58.1"
+gem "google-cloud-dialogflow", ">= 1.7.0"
+gem "twilio-ruby", "~> 5.67.0"
 
 gem "jwe"
 gem "jwt"
@@ -88,7 +88,7 @@ gem "jwt"
 gem "devise_invitable", "~> 2.0"
 gem "doorkeeper", "~> 5.5.0"
 gem "oauth", "~> 0.5.5"
-gem "omniauth-oauth2"
+gem "omniauth-oauth2", ">= 1.9.0"
 
 gem "image_processing", "~> 1.12"
 gem "sidekiq" # , "~> 6.5"
@@ -105,7 +105,7 @@ gem "aws-sdk-s3", "~> 1.48"
 gem "mini_magick", "~> 4.8"
 
 gem "active_importer"
-gem "faraday"
+gem "faraday", ">= 2.14.1"
 gem "http"
 gem "net-http"
 gem "roo", "~> 2.8", ">= 2.8.3", git: "https://github.com/roo-rb/roo.git"
